@@ -1,14 +1,14 @@
-# Coinbase Embedded Wallet Quickstart Debug
+# Coinbase Embedded Wallet Integration Debugger
 
-This project is an implementation of the Coinbase Embedded Wallet quickstart guide, created to debug issues with the integration.
+This project serves as a debugging tool for the Coinbase Embedded Wallet integration, based on their official quickstart guide.
 
-## Project Overview
+## Overview
 
-This React application demonstrates the integration of Coinbase's Embedded Wallet SDK. It includes components for user authentication, wallet creation/restoration, and basic transaction signing. This project follows the quickstart guide provided by Coinbase, which can be found at [https://docs.cdp.coinbase.com/embedded-wallets/docs/quickstart](https://docs.cdp.coinbase.com/embedded-wallets/docs/quickstart).
+Built with React, this application showcases the implementation of Coinbase's Embedded Wallet SDK. It features user authentication, wallet management, and transaction signing capabilities. The project adheres to the guidelines outlined in the [Coinbase quickstart documentation](https://docs.cdp.coinbase.com/embedded-wallets/docs/quickstart).
 
-## Getting Started
+## Setup Instructions
 
-To get started with this project, follow these steps:
+Follow these steps to set up the project:
 
 1. Clone the repository:
    ```
@@ -20,12 +20,13 @@ To get started with this project, follow these steps:
    yarn --frozen-lockfile
    ```
 
-3. Start the development server:
+3. Launch the development server:
    ```
    yarn start
    ```
 
-The app will run on the local machine at port `3000`.
+The application will be accessible at `http://127.0.0.1:3000`.
 
-Important: The CDP project ID is taken from the hash of the URL. Specifically, if you use https://127.0.0.1:96116f00-370c-4fdb-ba50-cf88d63ab9a6 the app will take `96116f00-370c-4fdb-ba50-cf88d63ab9a6` as the project ID value.
+> [!WARNING]
+> The CDP project ID is extracted from the URL hash. For example, using `https://127.0.0.1:96116f00-370c-4fdb-ba50-cf88d63ab9a6` will set the project ID to `96116f00-370c-4fdb-ba50-cf88d63ab9a6`.
 
