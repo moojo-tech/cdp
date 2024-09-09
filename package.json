@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "lint": "eslint 'src/**/*.{js,ts,tsx}'",
+    "lint:fix": "eslint 'src/**/*.{js,ts,tsx}' --fix",
+    "format": "prettier --write 'src/**/*.{js,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -41,5 +45,11 @@
     "webpack": "^5.94.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix",
+      "pretty-quick --staged"
+    ]
   }
 }
