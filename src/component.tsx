@@ -1,5 +1,6 @@
+import React from 'react';
 //////////////// [frontend] component.tsx - 2. Use `useWalletContext` to login and setup your user!
-import { useWalletContext, useEVMAddress } from "@coinbase/waas-sdk-web-react";
+import { useWalletContext, useEVMAddress } from '@coinbase/waas-sdk-web-react';
 
 // a button to login your user.
 // this will trigger Coinbase Managed Auth
@@ -34,7 +35,7 @@ export const CreateOrResumeWalletButton = () => {
         }
       }}
     >
-      {isCreatingWallet ? "Creating wallet..." : "Create/Resume Wallet"}
+      {isCreatingWallet ? 'Creating wallet...' : 'Create/Resume Wallet'}
     </button>
   );
 };
