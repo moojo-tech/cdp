@@ -16,7 +16,7 @@ root.render(
     collectAndReportMetrics
     enableHostedBackups
     autoCreateWallet
-    prod
+    prod={true}
   >
     <p style={{ textAlign: 'center' }}>PROJECT_ID={PROJECT_ID}</p>
     <App />
