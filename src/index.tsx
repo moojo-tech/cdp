@@ -10,7 +10,14 @@ const PROJECT_ID = location.hash.slice(1);
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
   // <React.StrictMode>
-  <WalletProvider projectId={PROJECT_ID} verbose collectAndReportMetrics enableHostedBackups>
+  <WalletProvider
+    projectId={PROJECT_ID}
+    verbose
+    collectAndReportMetrics
+    enableHostedBackups
+    autoCreateWallet
+    prod
+  >
     <p style={{ textAlign: 'center' }}>PROJECT_ID={PROJECT_ID}</p>
     <App />
   </WalletProvider>,
