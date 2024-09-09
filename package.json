@@ -6,9 +6,9 @@
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
-    "lint": "eslint 'src/**/*.{js,ts,tsx}'",
-    "lint:fix": "eslint 'src/**/*.{js,ts,tsx}' --fix",
-    "format": "prettier --write 'src/**/*.{js,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx,json,css,md}'",
     "prepare": "husky install"
   },
   "keywords": [],
@@ -47,7 +47,7 @@
     "webpack-dev-server": "^5.1.0"
   },
   "lint-staged": {
-    "*.{js,ts,tsx}": [
+    "*.{js,jsx,ts,tsx}": [
       "yarn eslint --fix",
       "yarn prettier --write"
     ]
