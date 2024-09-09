@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@coinbase/waas-sdk-viem": "^3.0.2",
     "@coinbase/waas-sdk-web": "^3.3.2",
