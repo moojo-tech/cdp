@@ -46,6 +46,12 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint-staged && yarn pretty-quick --staged",
+      "pre-push": "syncpack list-mismatches && npm run build"
+    }
+  },
   "lint-staged": {
     "*.{js,ts,tsx}": [
       "eslint --fix",
