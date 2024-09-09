@@ -7,14 +7,13 @@ This project serves as a debugging tool for the Coinbase Embedded Wallet integra
 Built with React, this application follows, almost verbatim, the code snippets from Coinbase's Embedded Wallet quickstart guide. Some additional code was added to gain visibility into the value retruned from `useWalletContext()`.
 
 
-## Setup Instructions
+## Setup/Usage
 
-Follow these steps to set up the project:
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/moojo-tech/cdp-embedded-wallet-sandbox.git
-   ```
+1. Clone the repository and CD to the repo's root dir:
+  ```
+  git clone git@github.com:moojo-tech/cdp-embedded-wallet-sandbox.git
+  cd cdp-embedded-wallet-sandbox
+  ```
 
 2. Install dependencies:
    ```
