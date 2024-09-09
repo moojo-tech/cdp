@@ -10,10 +10,10 @@ Built with React, this application follows, almost verbatim, the code snippets f
 ## Setup/Usage
 
 1. Clone the repository and CD to the repo's root dir:
-  ```
-  git clone git@github.com:moojo-tech/cdp-embedded-wallet-sandbox.git
-  cd cdp-embedded-wallet-sandbox
-  ```
+    ```
+    git clone git@github.com:moojo-tech/cdp-embedded-wallet-sandbox.git
+    cd cdp-embedded-wallet-sandbox
+    ```
 
 2. Install dependencies:
    ```
