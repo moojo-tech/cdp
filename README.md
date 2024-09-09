@@ -27,6 +27,6 @@ Follow these steps to set up the project:
 
 The application will be accessible at `http://127.0.0.1:3000`.
 
-> [!WARNING]
+> [!IMPORTANT]
 > The CDP project ID is extracted from the URL hash. For example, using `https://127.0.0.1:96116f00-370c-4fdb-ba50-cf88d63ab9a6` will set the project ID to `96116f00-370c-4fdb-ba50-cf88d63ab9a6`.
 
