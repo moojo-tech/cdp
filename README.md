@@ -35,5 +35,3 @@ The application will be accessible at `http://127.0.0.1:3000`.
 
 The application is deployed on github-pages at https://moojo-tech.github.io/cdp-embedded-wallet-sandbox/. 
 
-> [!IMPORTANT]
-> The CDP project ID is extracted from the URL hash. If your CDP project ID is `96116f00-370c-4fdb-ba50-cf88d63ab9a6` you should open this URL in your browser: https://moojo-tech.github.io/cdp-embedded-wallet-sandbox/#96116f00-370c-4fdb-ba50-cf88d63ab9a6.
