@@ -5,16 +5,31 @@ import { useWalletContext, useEVMAddress } from '@coinbase/waas-sdk-web-react';
 // a button to login your user.
 // this will trigger Coinbase Managed Auth
 export const LoginButton = () => {
-  const { waas, user } = useWalletContext();
+  const c = useWalletContext();
+  const { waas, user } = c;
   return (
-    <button
-      disabled={!waas || !!user}
-      onClick={() => {
-        waas!.login();
-      }}
-    >
-      Login
-    </button>
+    <>
+      <button
+        disabled={!waas || !!user}
+        onClick={() => {
+          waas!.login();
+        }}
+      >
+        Login
+      </button>
+      <p>
+        state=
+        {JSON.stringify({
+          context: c,
+          'typeof waas': typeof waas,
+          'typeof user': typeof user,
+          waas: waas,
+          user: user,
+          '!waas': !waas,
+          '!!user': !!user,
+        })}
+      </p>
+    </>
   );
 };
 
