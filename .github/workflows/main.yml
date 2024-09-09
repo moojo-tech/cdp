@@ -43,7 +43,7 @@ jobs:
       - name: Build        
         run: yarn build
         env: 
-          PUBLIC_URL: https://moojo-tech.github.io/cdp
+          PUBLIC_URL: https://moojo-tech.github.io/cdp-embedded-wallet-sandbox
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

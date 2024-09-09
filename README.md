@@ -1,4 +1,4 @@
-# Coinbase Embedded Wallet Integration Debugger
+# Coinbase Embedded Wallet Sandbox
 
 This project serves as a debugging tool for the Coinbase Embedded Wallet integration, based on the official [quickstart guide](https://docs.cdp.coinbase.com/embedded-wallets/docs/quickstart).
 
@@ -13,7 +13,7 @@ Follow these steps to set up the project:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/moojo-tech/cdp.git
+   git clone https://github.com/moojo-tech/cdp-embedded-wallet-sandbox.git
    ```
 
 2. Install dependencies:
